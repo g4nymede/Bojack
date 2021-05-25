@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.coverbig {
+  width: 100%;
+}
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: Indie Flower;
+  font-size: 105px;
+  -webkit-text-stroke: 4px black;
+}
