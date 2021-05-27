@@ -1,0 +1,34 @@
+h1 {
+  font-family: Indie Flower;
+  font-size: 70px;
+  margin: 0;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  border-radius: 50%;
+  width: 280px;
+}
+
+.aboutchcontainer { 
+    padding: 20px;
+    display: flex;
+}
+
+.aboutchimage {
+ align-self: flex-start;
+ padding: 10px;
+}
+
+.aboutchtext {
+ flex: 1 1 auto; 
+ padding: 20px;
+ font-size: 25px;
+ font-family: Indie Flower;
+}
+#bojackcolorpage {
+  background-color: #c1aea1;
+}
