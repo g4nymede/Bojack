@@ -46,3 +46,20 @@ img {
 #toddcolorpage {
     background-color: #f95b38;
 }
+
+@media (max-width: 450px) {
+
+    h1{ 
+        font-size: 50px;
+    }
+
+    img {
+        width: 200px;
+    }
+
+    .aboutchcontainer {
+
+        align-items: center;
+        flex-direction: column;
+    }
+}
