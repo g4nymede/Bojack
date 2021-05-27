@@ -15,61 +15,59 @@ img {
   height: 280px;
 }
 
-.aboutchcontainer { 
-    padding: 20px;
-    display: flex;
-    justify-content: center;
+.aboutchcontainer {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
 }
 
 .aboutchimage {
- align-self: flex-start;
- padding: 10px;
+  align-self: flex-start;
+  padding: 10px;
 }
 
 .aboutchtext {
- flex: 0 1 auto; 
- padding: 0 30px;
- font-size: 25px;
- font-family: Indie Flower;
- width: 700px;
+  flex: 0 1 auto;
+  padding: 0 30px;
+  font-size: 25px;
+  font-family: Indie Flower;
+  width: 700px;
 }
 #bojackcolorpage {
   background-color: #c1aea1;
 }
 
 #pccolorpage {
-    background-color: #efb29c;
+  background-color: #efb29c;
 }
 
 #dianecolorpage {
-    background-color:#75b975;
+  background-color: #75b975;
 }
 #mrpcolorpage {
-    background-color: #d8e46e;
+  background-color: #d8e46e;
 }
 #toddcolorpage {
-    background-color: #f95b38;
+  background-color: #f95b38;
 }
 
 @media (max-width: 450px) {
+  h1 {
+    font-size: 40px;
+  }
 
-    h1{ 
-        font-size: 40px;
-    }
+  img {
+    width: 200px;
+    height: 200px;
+  }
 
-    img {
-        width: 200px;
-        height: 200px;;
-    }
+  .aboutchcontainer {
+    align-items: center;
+    flex-direction: column;
+    width: auto;
+  }
 
-    .aboutchcontainer {
-
-        align-items: center;
-        flex-direction: column;
-        width:auto;
-    }
-
-    .aboutchtext {
-        width: auto;
-    }
+  .aboutchtext {
+    width: auto;
+  }
 }
