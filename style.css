@@ -68,7 +68,7 @@ a {
 .aboutauthorcontainer {
   background-color: #bcf37c;
   display: flex;
-  justify-content:space-around;
+  justify-content: space-around;
   padding: 70px;
 }
 
@@ -79,20 +79,22 @@ a {
   box-shadow: 5px 5px 14px -4px #000000;
 }
 
-
 .aboutauthortxt {
   width: 700px;
   font-family: Indie Flower;
-  font-size: 20px;
-  justify-content: space-around;
+  font-size: 30px;
 }
 
+h2{
+  text-decoration: underline;
+}
 
 @media (max-width: 450px) {
   .centered {
     font-size: 50px;
     -webkit-text-stroke: 2px black;
   }
+
   .introtext {
     width: auto;
     font-size: 20px;
@@ -101,5 +103,19 @@ a {
   .charactercontainer {
     flex-direction: column;
     align-items: center;
+  }
+
+  .aboutauthorcontainer {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .aboutauthorimage {
+    width: 200px;
+    height: 200px;
+  }
+
+  .aboutauthortxt {
+    width: auto;
   }
 }
